@@ -33,7 +33,7 @@ class CalculatorTests {
 	}
 	
 	@Test
-	void subt() {
+	void substract() {
 		Assertions.assertEquals(6, calculator.substract(18, 12), "18 - 12 should equal 6");
 	}
 
